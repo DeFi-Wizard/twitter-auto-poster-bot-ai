@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "generate DeFi, crypto, and memecoin content, tips and tricks or something new or some rant or some advice as a tweet, it should not be vague and should be unique and engaging, include a call to like and follow; under 280 characters and should be plain text, you can use hashtags and emojis";
+    "generate DeFi, crypto, and memecoin content, a few U.S. stock market headlines every now and then too,  tips and tricks or something new or some advice as a tweet ya know? keep it light and fun, super engaging and keeping up with all the latest trends to ensure success of the tweets and gain as many followers as quickly as possible, it should not be vague and should be unique and engaging, include a call to like and follow; under 280 characters and should be plain text, you can use hashtags and emojis";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
