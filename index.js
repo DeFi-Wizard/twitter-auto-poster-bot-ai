@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "Create a highly engaging tweet that's focused around pump.fun memecoins, trends, and crypto news, keep it simple and non repetitive. Use exciting language to spark curiosity and FOMO, and mix in a popular hashtag like #Crypto or #Altcoin to get more eyes on it. Make it relatable to both new traders and seasoned ‘degens’ by adding insights, speculation, or humor around a trending topic. Keep the tone bold, witty, and slightly mysterious—something that begs for a retweet! be unique and engaging, include an occasional call to like and follow; under 280 characters and should be plain text, you can use hashtags and emojis";
+    " Generate Twitter content focused on memecoins, DeFi, and crypto trends. Each tweet must provide specific, actionable insights in full detail, as if from a human expert. Avoid teaser phrases and make sure any "promised" information is actually given in the post. Each tweet should: Focus on a timely topic in crypto or DeFi, such as a trending memecoin, a notable price movement, or a unique trading insight. Provide all details promised within the tweet itself. For example, if sharing "3 ways to spot a good memecoin," list and explain those three ways clearly. Include any relevant data, recent stats, or brief case studies to add credibility and depth. End with a conversational tone or a quick question to encourage replies, but without sounding too salesy.ff ";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
