@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "Generate Twitter content on trending topics in crypto, DeFi, and memecoins, with each tweet providing full details without vague teasers. Avoid generic phrases, make each tweet sound human and complete. Try to Cover a timely crypto trend with specific, actionable insights and Deliver any promised info fully- for instance, if mentioning 3 ways to spot a memecoin, list all three clearly, Use brief, data-backed points where possible, and close with a conversational question or thought";
+    "Generate Twitter posts on trending topics and news in crypto, DeFi, and memecoins, with each tweet providing full details without vague teasers, avoiding generic phrases, make each tweet sound as human as possible and complete, also Try to Cover a timely crypto trend with specific, actionable insights and Deliver any promised info fully, using brief, data-backed points where possible, remember we are trying to gain followers";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
